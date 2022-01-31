@@ -6,3 +6,7 @@ export default function Triangle(side1, side2, side3) {
   this.isScalene = ((this.side1 !== this.side2) && ((this.side1 !== this.side3)) && ((this.side2 !== this.side3))) ? "is scalene" : "not scalene";
   this.isEquilateral = ((this.side1 == this.side2) && (this.side1 === this.side3)) ? "is equilateral" : "not equilateral";
 }
+
+Triangle.prototype.checkType = function() {
+
+};
